@@ -68,8 +68,11 @@ export default function Home() {
         </nav>
         <ul>
           {data.map((item: any) => (
-            <li key={item.name} className="border-b last:border-0 py-4">
-              <Link href={`/people/${item.url.split("/")[5]}`}>
+            <li key={item.name} className="border-b last:border-0 ">
+              <Link
+                className="block hover:bg-gray-100 py-4"
+                href={`/people/${item.url.split("/")[5]}`}
+              >
                 {item.name}
               </Link>
             </li>
