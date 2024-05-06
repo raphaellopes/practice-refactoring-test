@@ -3,7 +3,7 @@
 import axios from "axios";
 import moment from "moment";
 import { useEffect, useState } from "react";
-import Link from "../../node_modules/next/link";
+import Link from "next/link";
 
 export default function Person({ id }: { id: any }) {
   const [data, setData] = useState<any>([]);

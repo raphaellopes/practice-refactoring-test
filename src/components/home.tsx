@@ -2,7 +2,7 @@
 
 import axios from "axios";
 import { useEffect, useState } from "react";
-import Link from "../../node_modules/next/link";
+import Link from "next/link";
 
 export default function Home() {
   const [data, setData] = useState([]);
