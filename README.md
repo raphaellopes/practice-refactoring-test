@@ -7,6 +7,8 @@ This app contains list of star wars characters and the some details related to e
 You will notice some small issues, that needs to be fixed. Take a time to understand how it works, identify the possible issues and fix them, and make this code better.
 
 
-### what do we will check
+### what will we check
 - is it improve the maintainability and code quality?
 - will it enable new features to be added easily?
+- is everything working as expected?
+- are all the issues fixed?
