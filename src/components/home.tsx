@@ -2,6 +2,7 @@
 
 import axios from "axios";
 import { useEffect, useState } from "react";
+import Link from "../../node_modules/next/link";
 
 export default function Home() {
   const [data, setData] = useState([]);
@@ -68,7 +69,9 @@ export default function Home() {
         <ul>
           {data.map((item: any) => (
             <li key={item.name} className="border-b last:border-0 py-4">
-              {item.name}
+              <Link href={`/people/${item.url.split("/")[5]}`}>
+                {item.name}
+              </Link>
             </li>
           ))}
         </ul>
